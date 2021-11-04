@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.budiyev.android.codescanner.CodeScannerView
+        android:id="@+id/activity_main_scanner_view"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:autoFocusButtonColor="@android:color/white"
+        app:autoFocusButtonVisible="true"
+        app:flashButtonColor="@android:color/white"
+        app:flashButtonVisible="true"
+        app:maskColor="#D3D1D1" />
+
+    <Button
+        android:id="@+id/activity_main_scan_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_main_scanner_view"
+        android:layout_alignBottom="@+id/activity_main_scanner_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="-51dp"
+        android:text="Scan"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/activity_main_scan_results_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_alignBottom="@id/activity_main_scan_button"
+        android:layout_below="@id/activity_main_scan_button"
+        tools:text="Scan Results" />
+
+
+</RelativeLayout>

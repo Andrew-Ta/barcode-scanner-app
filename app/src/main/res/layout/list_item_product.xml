@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/list_item_barcode_number_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="barcode #" />
+
+    <TextView
+        android:id="@+id/list_item_barcode_format_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="barcode format" />
+
+    <TextView
+        android:id="@+id/list_item_mpn_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="mpn" />
+    <TextView
+        android:id="@+id/list_item_model_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="model" />
+<!--    <TextView-->
+<!--        android:id="@+id/list_item_asin_textView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:text="asin" />-->
+    <TextView
+        android:id="@+id/list_item_title_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="title" />
+    <TextView
+        android:id="@+id/list_item_category_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="category" />
+    <TextView
+        android:id="@+id/list_item_manufacturer_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="manufacturer" />
+    <TextView
+        android:id="@+id/list_item_brand_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="brand" />
+<!--    <TextView-->
+<!--        android:id="@+id/list_item_contributors_textView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:text="contributors" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/list_item_ageGroup_textView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:text="age group" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/list_item_ingredients_textView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:text="ingredients" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/list_item_nutritionalFacts_textView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:text="nutritional facts" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/list_item_energyEfficiencyClass_textView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:text="energy efficiency class" />-->
+    <TextView
+        android:id="@+id/list_item_color_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="color" />
+<!--    <TextView-->
+<!--        android:id="@+id/list_item_gender_textView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:text="gender" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/list_item_material_textView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:text="material" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/list_item_pattern_textView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:text="pattern" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/list_item_format_textView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:text="format" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/list_item_multipack_textView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:text="multipack" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/list_item_size_textView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:text="size" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/list_item_length_textView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:text="length" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/list_item_width_textView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:text="width" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/list_item_height_textView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:text="height" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/list_item_weight_textView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:text="weight" />-->
+    <TextView
+        android:id="@+id/list_item_releaseDate_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="release date" />
+    <TextView
+        android:id="@+id/list_item_lastUpdate_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="last update" />
+    <TextView
+        android:id="@+id/list_item_description_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="description" />
+<!--    <TextView-->
+<!--        android:id="@+id/list_item_features_textView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:text="features" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/list_item_images_textView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:text="images" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/list_item_stores_textView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:text="stores" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/list_item_reviews_textView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:text="reviews" />-->
+</LinearLayout>
